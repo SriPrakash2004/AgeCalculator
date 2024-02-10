@@ -1,0 +1,54 @@
+body {
+    background-image: url(./img/calculator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.date-form {
+    width: 700px;
+    backdrop-filter: blur(10px);
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dob {
+    font-size: 30px;
+    padding-right: 92px;
+    font-weight: 400;
+}
+
+.dob-1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.date-of-birth {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-width {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.res1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 107px;
+}
+
+.res {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
