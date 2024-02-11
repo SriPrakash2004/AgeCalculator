@@ -7,7 +7,7 @@ body {
 }
 
 .date-form {
-    width: 700px;
+    width: auto;
     backdrop-filter: blur(10px);
     height: 500px;
     justify-content: center;

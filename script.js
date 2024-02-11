@@ -9,6 +9,8 @@ function calculate() {
     var datevalue = Number(date.value)
     var date1value = Number(date1.value)
 
+     datevalue++
+
     var total = date1value - datevalue
 
     result.textContent=total
