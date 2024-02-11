@@ -1,27 +1,30 @@
 body {
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
     background-image: url(./img/calculator.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-
+.text-color{
+    color: #0d98ba;
+}
 .date-form {
-    width: auto;
-    backdrop-filter: blur(10px);
+    padding: 250px 0;
+    backdrop-filter: blur(30px);
     height: 500px;
     justify-content: center;
     align-items: center;
-    border: 2px solid wheat;
-    border-radius: 5px;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
 
 }
-
 .dob {
     font-size: 30px;
-    padding-right: 92px;
+   padding-right: 92px;
     font-weight: 400;
 }
 
@@ -51,4 +54,11 @@ body {
     font-size: 20px;
     font-weight: 300;
     padding: 10px;
+}
+.about{
+    font-size: 40px;
+    font-weight: 600;
+}
+.para-padding{
+    font-size: 20px;
 }

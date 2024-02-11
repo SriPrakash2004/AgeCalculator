@@ -9,33 +9,59 @@
     <!-- link the Bootstrap class -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- link the CSS  -->
+    <!-- link Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--Link the CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="container m-auto">
-        <div class="row ms-auto">
-            <div class="col-md-12 col-12 py-5 text-center">
-                <form class="date-form py-4 m-auto">
-                    <h1 class="text-white text-center pb-4">AgeCalculator</h1>
-                    <div class="year-of-birth text-center">
-                        <label for="date" class="text-white dob">Date Of Birth</label>
-                        <input type="number" class="date-of-birth" id="date">
-                    </div>
-                    <div class="year-of-birth text-center pb-3">
-                        <label for="date1" class="text-white dob-1">Current Date & Year</label>
-                        <input type="number" class="date-of-birth" id="date1">
-                    </div>
-                    <button type="button" class="btn btn-outline-success btn-width btn-lg mb-5"
-                        onclick="calculate()">Calculate</button>
-                    <h1 class="text-center text-white" id="result">Current Age:</h1>
-                </form>
+    <section class="banner">
+        <div class="container m-auto">
+            <div class="row ms-auto">
+                <div class="col-md-12 col-12 py-5 text-center">
+                    <form class="date-form py-4 m-auto">
+                        <h1 class="text-color text-center pb-4">AgeCalculator</h1>
+                        <div class="year-of-birth text-center">
+                            <label for="date" class="text-white dob">Date Of Birth</label>
+                            <input type="number" class="date-of-birth" id="date">
+                        </div>
+                        <div class="year-of-birth text-center pb-3">
+                            <label for="date1" class="text-white dob-1">Current Date & Year</label>
+                            <input type="number" class="date-of-birth" id="date1">
+                        </div>
+                        <button type="button" class="btn btn-outline-success btn-width btn-lg mb-5"
+                            onclick="calculate()">Calculate</button>
+                        <h1 class="text-center text-white" id="result">Current Age:</h1>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h4 class="text-center text-color pb-4 about">About</h4>
+                    <p class="pb-2 para-padding">The age of a person can be counted differently in different cultures.
+                        This calculator is based on the
+                        most common age system. In this system, age increases on a person's birthday. For example, the
+                        age
+                        of a person who has ived for 3 years and 11 months is 3, and their age will increase to 4 on
+                        their
+                        next birthday one month later. Most western countries use this age system. </p>
+                    <p class="pb-2 para-padding">In some cultures, age is expressed by counting years with or without
+                        including the current year. For example, a person who is twenty years old is the same age as
+                        another person who is in their twenty-first year of life. In one of the traditional Chinese age
+                        systems, people are born at age 1 and their age increases up at the Traditional Chinese New Year
+                        rather than their birthday. For example, if one baby is born just one day before the Traditional
+                        Chinese New Year, 2 days later, the baby will be 2 even though he/she is only 2 days old.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
